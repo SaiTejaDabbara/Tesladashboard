@@ -64,8 +64,11 @@ Ensure links and buttons work.
 
 **6. Final Touches**
 
+
 Optimize images for fast loading.
 
 Validate HTML and CSS (use W3C validator).
 
 Optionally, host it on GitHub Pages or Netlify for public access.
+![image](https://github.com/user-attachments/assets/417835c2-8c99-4707-addd-ce26bea1ce17)
+
