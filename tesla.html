@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tesla</title>
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/navbar.css" />
+  <link rel="stylesheet" href="css/hero.css" />
+  <link rel="stylesheet" href="css/footer.css" />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Quattrocento:wght@400;700&display=swap');
+  </style>
+
+  <style>
+    body {
+      font-family: '-apple-system', sans-serif;
+    }
+
+    .top-banner {
+      background-color: bisque;
+      color: black;
+      text-align: center;
+      font-size: 14px;
+      padding: 10px ;
+      display: block;
+      
+      
+      
+    }
+    .navbar {
+      background: white;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 50px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    }
+    .logo img {
+      height: 10px;
+    }
+    .menu ul {
+      list-style: none;
+      display: flex;
+      gap: 50px;
+      font-size: 16px;
+    }
+    .menu ul li {
+      cursor: pointer;
+     }
+    .menu-right ul {
+      list-style: none;
+      display: flex;
+      gap: 30px;
+      font-size: 18px;
+    }
+    .menu-right ul li {
+      cursor: pointer;
+    }
+
+    .logo-img {
+      width: 80px;
+      height: 40px;
+      position: sticky;
+      top: 0;
+      
+      
+    }
+    .hero-section {
+      position: relative;
+      height: 100vh;
+      background-size: cover;
+      background-position: center;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      text-align: center;
+      padding: 100px 20px 50px;
+    }
+
+    .hero-content h1 {
+      font-size: 4rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .hero-content p {
+      font-size: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .hero-buttons {
+      display: flex;
+      gap: 1rem;
+      margin-top: 1.5rem;
+    }
+
+    .btn {
+      padding: 12px 30px;
+      border-radius: 4px;
+      font-weight: bold;
+      text-transform: uppercase;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+
+    .btn-dark {
+      background: black;
+      color: white;
+    }
+
+    .btn-light {
+      background: white;
+      color: black;
+    }
+
+    .footer {
+      background-color: whitesmoke;
+      padding: 20px;
+      text-align: center;
+      font-size: 14px;
+      color: gray;
+    }
+
+    .footer-links {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 0;
+      margin-top: 10px;
+    }
+
+    .footer-links li a {
+      color: gray;
+    }
+
+    .add{
+      
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+    }
+    .x{
+      text-decoration: none;
+      color: black;
+    }
+    .add1{
+      margin-bottom: 10px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      
+    }
+    .navbar {
+      display: flex;
+      justify-content: center;
+      
+    }
+    #inlogo {
+      width: 80px;
+      height: 40px;
+      position: absolute;
+      left: 10px;
+      top: 80px;
+    }
+
+    .add1 {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .add1 a {
+      display: block;
+      margin: 5px 0;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+    <div class="top-banner">
+        We're celebrating Earth Day. 
+      </div>
+      
+      <div class="navbar">
+        <div class="logo">
+          <img src="https://www.logo.wine/a/logo/Tesla%2C_Inc./Tesla%2C_Inc.-Logo.wine.svg" alt="Tesla Logo">
+        </div>
+      
+        <div class="menu">
+          <ul>
+            <li>Vehicles</li>
+            <li>Energy</li>
+            <li>Charging</li>
+            <li>Discover</li>
+            <li>Shop</li>
+          </ul>
+        </div>
+      
+        <div class="menu-right">
+          <ul>
+            <li><i class="fa-regular fa-circle-question"></i></li>
+            <li><i class="fa-solid fa-globe"></i></li>
+            <li><i class="fa-regular fa-user"></i></li>
+          </ul>
+        </div>
+    </div>
+
+
+  </div>
+
+  <main class="main-content">
+    <section class="hero-section" id="model-3" style="background-image: url('https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-Y-2-Desktop-US.png');">
+      <div class="hero-content">
+        <h1>Model 3</h1>
+        <p>Lease starting at $329/mo*</p>
+        <div class="hero-buttons">
+          <a href="#" class="btn btn-dark">Order now</a>
+          <a href="#" class="btn btn-light">Demo drive</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="hero-section" id="model-y" style="background-image: url('https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-3-Desktop-US.png');">
+      <div class="hero-content">
+        <h1>Model Y</h1>
+        <p>Lease starting at $399/mo*</p>
+        <div class="hero-buttons">
+          <a href="#" class="btn btn-dark">Order now</a>
+          <a href="#" class="btn btn-light">Demo Drive</a>
+        </div>
+      </div>
+    </section>
+    <section class="hero-section" id="model-s" style="background-image: url('https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Cybertruck-Hero-US-Desktop-v4.jpg');">
+      <div class="hero-content">
+        <h1>Model S</h1>
+        <p>From $71,090*</p>
+        <div class="hero-buttons">
+          <a href="#" class="btn btn-dark">Order now</a>
+          <a href="#" class="btn btn-light">View inventory</a>
+        </div>
+      </div>
+    </section>
+    <section class="hero-section" id="model-x" style="background-image: url('https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-X-Desktop-US.png');">
+      <div class="hero-content">
+        <h1>Model X</h1>
+        <p>From $68,590*</p>
+        <div class="hero-buttons">
+          <a href="#" class="btn btn-dark">Order now</a>
+          <a href="#" class="btn btn-light">View inventory</a>
+        </div>
+      </div>
+    </section>
+    <section class="hero-section" id="model-x" style="background-image: url('https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-S-Desktop-US.png');">
+      <div class="hero-content">
+        <h1>Cyber Truck</h1>
+        <p>Lease From $799*</p>
+        <div class="hero-buttons">
+          <a href="#" class="btn btn-dark">Order now</a>
+          <a href="#" class="btn btn-light">View inventory</a>
+        </div>
+      </div>
+    </section>
+    <section class="hero-section" id="model-x" style="background-image: url('https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-SolarPanels-01-Desktop');">
+      <div class="hero-content">
+        <h1>Solar Panels</h1>
+        <a href="#" style="height: 30px; width: 40px; text-decoration: none; font-size: 28px; color: white;">Schedule a
+          virtual Consultation</a>
+        <div class="hero-buttons">
+          <a href="#" class="btn btn-dark" style="margin-left: 20px;">Order now</a>
+          <a href="#" class="btn btn-light">Learn More</a>
+        </div>
+      </div>
+    </section>
+    <section class="hero-section" id="model-x" style="background-image: url('https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-SolarRoof-Desktop-US.png');">
+      <div class="hero-content">
+        <h1>Solar Roof</h1>
+        <h2>Produce Clean Energy From Your Roof</h2>
+        <div class="hero-buttons">
+          <a href="#" class="btn btn-dark" style="margin-left: 60px;">Order now</a>
+          <a href="#" class="btn btn-light">Learn More</a>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <section class="hero-section" id="model-x" style="background-image: url('https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Powerwall-Desktop-US.png');">
+      <div class="hero-content">
+        <h1>Power Wall</h1>
+        <div class="hero-buttons">
+          <a href="#" class="btn btn-dark" style="margin-left: 20px;">Order now</a>
+          <a href="#" class="btn btn-light">Learn More</a>
+        </div>
+      </div>
+      </div>
+    </section>
+    <section class="hero-section" id="model-x" style="background-image: url('https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Accessories-Desktop-US.png');">
+      <div class="hero-content">
+        <h1>Acessories</h1>
+        <h2>Produce Clean Energy From Your Roof</h2>
+        <div class="hero-buttons">
+          <a href="#" class="btn btn-dark" style="margin-left: 140px;">Shop now</a>
+        </div>
+      </div>
+      </div>
+    </section>
+    <section class="hero-section" id="model-x" style="background-image: url('https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Card-Megapack-Desktop.jpg');">
+        <div class="hero-content">
+          <h1>Meghapack</h1>
+          <h2>Massive Batteries for massive Energy Support</h2>
+          <div class="hero-buttons">
+            <a href="#" class="btn btn-dark" style="margin-top: 50px;" >Learn More</a>
+          </div>
+        </div>
+        </div>
+      </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <h5 style="font-family:arial;">
+        <sup>1
+        </sup>Before the Federal Tax Credit, Model Y Long Range AWD starts at $50,630. Price includes Destination
+        and<br> Order Fees but exclude taxes and other fees. Subject to change. Vehicle shown has upgrades that will
+        <br>increase the price. The $7,500 Federal Tax Credit is available to eligible buyers and subject to MSRP
+        caps.<br> Not all vehicles, customers or finance options will be eligible.<a href="#">Terms apply</a>
+      </h5>
+      <div class="add">
+        <a href="#" class="x">Tesla © 2025</a>
+        <a href="#" class="x">Privacy & Legal</a>
+        <a href="#" class="x">Vehicle Recalls</a>
+        <a href="#" class="x">Contact</a>
+        <a href="#" class="x">News</a>
+        <a href="#" class="x">Get Updates</a>
+        <a href="#" class="x">Locations</a>
+        <a href="#" class="x">Learn</a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
